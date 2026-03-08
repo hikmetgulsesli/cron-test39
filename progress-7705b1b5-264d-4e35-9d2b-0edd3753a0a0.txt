@@ -1,0 +1,10 @@
+=== US-002: SQLite database schema and operations ===
+COMPLETED: 2026-03-08T23:16:00+03:00
+FILES CHANGED: src/db/sqlite.ts, src/db/sqlite.js, src/db/sqlite.test.js
+KEY DECISIONS:
+- Used native node:sqlite module (DatabaseSync) for synchronous operations
+- Implemented singleton pattern for database instance management
+- Added proper test isolation using temp database files per test
+- Added getTestRunSummary query helper with run existence check
+DEPENDENCIES ADDED: None (uses built-in node:sqlite)
+PR_URL: https://github.com/hikmetgulsesli/cron-test39/pull/2
