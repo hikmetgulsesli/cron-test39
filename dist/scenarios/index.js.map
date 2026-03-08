@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/scenarios/index.ts"],"names":[],"mappings":";;;AAMA,MAAa,cAAc;IACjB,SAAS,GAAe,EAAE,CAAC;IAE5B,WAAW,CAAC,QAAkB;QACnC,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC,QAAQ,CAAC,CAAC;IAChC,CAAC;IAEM,YAAY;QACjB,OAAO,IAAI,CAAC,SAAS,CAAC;IACxB,CAAC;CACF;AAVD,wCAUC"}
