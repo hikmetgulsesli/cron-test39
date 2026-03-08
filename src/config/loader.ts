@@ -113,13 +113,8 @@ function parseEnvOverrides(): PartialConfig {
 /**
  * Custom YAML loader for cosmiconfig
  */
-const yamlLoader = {
-  sync(filepath: string, content: string): unknown {
-    return yaml.parse(content);
-  },
-  async(filepath: string, content: string): Promise<unknown> {
-    return yaml.parse(content);
-  },
+const yamlLoader = (filepath: string, content: string): unknown => {
+  return yaml.parse(content);
 };
 
 /**
